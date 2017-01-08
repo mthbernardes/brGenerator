@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='brGenerator',
-    version='1.1',
+    version='1.2',
     url='https://github.com/mthbernardes/brGenerator',
     license='MIT License',
     author='Matheus Bernardes',
