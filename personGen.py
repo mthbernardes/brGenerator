@@ -16,7 +16,7 @@ class personGen():
         tree = html.fromstring(r.content)
         person['nome'] = tree.xpath('//*[@id="nome"]/@value')[0]
         person['cpf'] = tree.xpath('//*[@id="cpf"]/@value')[0]
-        person['rg'] = tree.xpath('//*[@id="rg"]')[0]
+        person['rg'] = tree.xpath('//*[@id="rg"]/@value')[0]
         person['aniversario'] = tree.xpath('//*[@id="data_nasc"]/@value')[0]
         person['email'] = tree.xpath('//*[@id="email"]/@value')[0]
         person['cep'] = tree.xpath('//*[@id="cep"]/@value')[0]
